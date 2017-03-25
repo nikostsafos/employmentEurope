@@ -1,0 +1,13 @@
+unit	Unit
+THS_HW	Thousand hours worked
+I10_PER	Index, 2010=100 (based on persons)
+I10_HW	Index, 2010=100 (based on hours worked)
+I10_JOB	Index, 2010=100 (based on jobs)
+THS_PER	Thousand persons
+THS_JOB	Thousand jobs
+PC_TOT_PER	Percentage of total (based on persons)
+PC_TOT_HW	Percentage of total (based on hours worked)
+PC_TOT_JOB	Percentage of total (based on jobs)
+PCH_PRE_PER	Percentage change on previous period (based on persons)
+PCH_PRE_HW	Percentage change on previous period (based on hours worked)
+PCH_PRE_JOB	Percentage change on previous period (based on jobs)

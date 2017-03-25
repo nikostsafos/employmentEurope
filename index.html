@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+  <head>
+    <title>European Union: Employment by Industry</title>
+    <meta property='og:title' content='European Union Employment by Industry'/>
+    <meta property='og:type' content='website' />
+    <meta property='og:url' content='https://nikostsafos.github.io/stateEmployment/' />
+    <meta property="og:image" content="img/cover.png" />
+    <meta name = 'viewport' content = 'width=device-width, initial-scale = 1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no'/>
+    <link rel="stylesheet" type="text/css" href="css/style.css"/>
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+    <script src = 'https://code.jquery.com/jquery-3.2.0.min.js'></script>
+  </head>
+  
+  <body>
+  <nav></nav>
+
+  <div id = 'content'>
+ 	
+ 		<hr><h2>European Union: Employment by industry (as percent of total)</h2><hr>
+    
+        <div class = 'menu' align = 'center'>
+        <select id="countrySelect" name="countrySelect">
+			<option value="Austria">Austria</option>
+			<option value="Belgium">Belgium</option>
+			<option value="Bulgaria">Bulgaria</option>
+			<option value="Croatia">Croatia</option>
+			<option value="Cyprus">Cyprus</option>
+			<option value="Czech Republic">Czech Republic</option>
+			<option value="Denmark">Denmark</option>
+			<option value="Estonia">Estonia</option>
+			<option value="Finland">Finland</option>
+			<option value="France">France</option>
+			<option value="Germany">Germany</option>
+			<option value="Greece">Greece</option>
+			<option value="Hungary">Hungary</option>
+			<option value="Ireland">Ireland</option>
+			<option value="Italy">Italy</option>
+			<option value="Latvia">Latvia</option>
+			<option value="Lithuania">Lithuania</option>
+			<option value="Luxembourg">Luxembourg</option>
+			<option value="Malta">Malta</option>
+			<option value="Netherlands">Netherlands</option>
+			<option value="Poland">Poland</option>
+			<option value="Portugal">Portugal</option>
+			<option value="Romania">Romania</option>
+			<option value="Slovakia">Slovakia</option>
+			<option value="Slovenia">Slovenia</option>
+			<option value="Spain">Spain</option>
+			<option value="Sweden">Sweden</option>
+			<option value="United Kingdom">United Kingdom</option>
+        </select>
+        </div>
+
+        <div class = 'graph' id = 'graphEmployment'></div>
+        
+    	<p class = 'graphFootnote'>Data from Eurostat, <a href = 'http://ec.europa.eu/eurostat/data/database' target = 'blank'>Employment by A*10 industry breakdowns (nama_10_a10_e)</a>, updated March 24, 2017. Industry classifications have been simplified for presentation purposes. Agriculture: Agriculture, forestry and fishing. Industry: Industry (except construction). Trade, transport, hospitality: Wholesale and retail trade, transport, accomodation and food service activities. Professional, other services: Professional, scientific and technical activities; administrative and support service activities. Government, education, health: Public administration, defence, education, human health and social work activities. Entertainment, recreation: Arts, entertainment and recreation; other service activities; activities of household and extra-territorial organizations and bodies. Detailed meta data <a href = 'http://ec.europa.eu/eurostat/cache/metadata/en/nama10_esms.htm' target = '_blank'>here</a>. For more: <a href='https://github.com/nikostsafos/stateEmployment' target = '_blank'>https://github.com/nikostsafos/stateEmployment.</a></p>
+    	
+    	<p class = 'graphFootnote'><a href="https://twitter.com/ntsafos" class="twitter-follow-button" data-show-count="false">Follow @ntsafos</a></p>
+    
+    <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script></h4>
+	<script src='js/employment.js'></script>
+	</div>
+  </body>
+

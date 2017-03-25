@@ -1,6 +1,6 @@
 # Employment by industry in the European Union
 
-Web version: https://nikostsafos.github.io/stateEmployment/
+Web version: https://nikostsafos.github.io/employmentEurope/
 
 This repository maps employment by industry across the European Union. 
 
